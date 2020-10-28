@@ -13,16 +13,15 @@ header nav {
 }
 header a {
     color: inherit;
-    padding 5px;
+    padding: 5px;
     text-decoration: none;
     border-radius: 20px;
-<<<<<<< HEAD
     padding: 10px;
     transition: all 0.4s ease-in-out;
 }
 header a:hover {
-=======
-    transition: background-color 0.4s ease-in-out;
+    background-color: black;
+    color: white;
 }
 
     background-color: black;
