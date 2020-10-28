@@ -13,7 +13,14 @@ header nav {
 }
 header a {
     color: inherit;
+    padding 5px;
     text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.4s ease-in-out;
+}
+header a:hover {
+    background-color: black;
+    color: white;
 }
 
 .cabeza #left {
