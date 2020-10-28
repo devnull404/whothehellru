@@ -14,6 +14,13 @@ header nav {
 header a {
     color: inherit;
     text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    transition: all 0.4s ease-in-out;
+}
+header a:hover {
+    background-color: black;
+    color: white;
 }
 
 .cabeza #left {
@@ -35,14 +42,16 @@ html {
     border: 1px solid black;
     height: 100%;
     background-color: black;
+    margin: -10px;
 }
 
 
 article {
     display: inline-flex;
     flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     justify-items: center;
     align-items: center;
 }
@@ -64,6 +73,7 @@ section {
 }
 section img {
     width: 90%;
+    min-width: 350px;
 }
 
 .who input {
@@ -93,6 +103,7 @@ section div {
     color: black;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    min-width: 350px;
 }
 
 #secondary {
@@ -106,4 +117,5 @@ section div {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     color: black;
+    min-width: 350px;
 }
